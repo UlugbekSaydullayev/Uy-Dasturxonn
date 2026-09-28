@@ -664,7 +664,7 @@ function CookModal({ cook, cart, setCart, onClose, photo, reviews, onAddReview, 
               <p className="text-[13px]" style={{ color: "#8A7F68", fontFamily: "Work Sans, sans-serif" }}>{cook.area}</p>
             </div>
             <span className="flex items-center gap-1 text-[13px]" style={{ color: T.gold, fontFamily: "Work Sans, sans-serif", fontWeight: 700 }}>
-              <Star size={13} fill={T.gold} strokeWidth={0} /> {cook.rating} ({cook.orders})
+              <Star size={13} fill={T.gold} strokeWidth={0} /> {cook.rating}
             </span>
           </div>
           <button
